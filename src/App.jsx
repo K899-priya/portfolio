@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Navbar from "./components/Navbar.jsx";
-import Footer from "./components/Footer.jsx";
+import Navbar from "./component/Navbar.jsx";
+import Footer from "./component/Footer.jsx";
 
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
@@ -13,7 +13,7 @@ import Contact from "./pages/Contact.jsx";
 function App() {
   return (
     <Router>
-      <div className="bg-[#0f172a] text-white min-h-screen font-mono">
+      <div className="bg-[#172138] text-white min-h-screen min-w-screen font-mono">
         <Navbar />
 
         <Routes>

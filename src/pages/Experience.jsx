@@ -4,7 +4,7 @@ function Experience() {
   return (
     <div className="px-10 py-20">
       <h2 className="text-3xl text-cyan-400 mb-8">
-        {"<Experience />"}
+        Experience
       </h2>
 
       <div className="space-y-6 border-l-2 border-cyan-500 pl-6">

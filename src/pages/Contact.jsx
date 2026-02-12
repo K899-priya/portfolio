@@ -2,13 +2,14 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="px-10 py-20 text-center">
+    <div className="px-20 py-20 text-center">
       <h2 className="text-3xl text-cyan-400 mb-6">
-        {"<Contact />"}
+        Contact 
       </h2>
-
-      <p className="text-slate-400">📞 +91 9905481735</p>
+    <div className="">
+      <p className="text-slate-400">📞 +91 9905481735</p><br />
       <p className="text-slate-400">📧 kp6273275@gmail.com</p>
+    </div>
 
       <a
         href="https://www.linkedin.com/in/kumari-priya-3288a5210"
