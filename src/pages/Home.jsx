@@ -1,13 +1,8 @@
-
+import React from "react";
 
 function Home() {
   return (
-    <motion.section
-      initial={{ opacity: 0, y: 40 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8 }}
-      className="text-center py-24"
-    >
+    <div className="text-center py-24">
       <h2 className="text-4xl font-bold mb-4">
         Hi, I'm <span className="text-cyan-400">Priya</span> 👋
       </h2>
@@ -34,7 +29,7 @@ function Home() {
           GitHub
         </a>
       </div>
-    </motion.section>
+    </div>
   );
 }
 

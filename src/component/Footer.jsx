@@ -1,0 +1,11 @@
+import React from "react";
+
+function Footer() {
+  return (
+    <footer className="text-center py-6 border-t border-slate-700 text-slate-500 text-sm">
+      © 2026 Kumari Priya | Built with React & TailwindCSS
+    </footer>
+  );
+}
+
+export default Footer;
