@@ -11,12 +11,13 @@ function Projects() {
 
         <div className="bg-[#1f2937] p-6 rounded-xl hover:scale-105 transition">
           <h3 className="text-xl font-semibold text-white">
-            Mini YouTube
+            Yoga Delight
           </h3>
           <p className="text-slate-400 mt-3">
-            React-based YouTube clone with video search & playback.
+            YogaDelight A personalized yoga application that uses AI to accurately detect and correct your poses.
+            With a vast library of yoga poses, detailed instructions, and real-time feedback, it’s your perfect yoga partner. 
           </p>
-          <a href="https://github.com/K899-priya/Mini-youtube" className="text-cyan-400">Source Code</a>
+          <a href="https://github.com/K899-priya/Yoga_Delight-main" className="text-cyan-400">Source Code</a>
         </div>
 
         <div className="bg-[#1f2937] p-6 rounded-xl hover:scale-105 transition">
