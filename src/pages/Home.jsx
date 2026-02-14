@@ -3,7 +3,7 @@ import profile from "../assets/123.jpeg";
 
 function Home() {
   return (
-    <div className="max-h-w-screen flex items-center justify-center px-8 bg-[#0f172a]">
+    <div className="max-h-screen flex items-center justify-center px-8 bg-[#0f172a]">
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-10 items-center">
 
         {/* LEFT CONTENT */}
@@ -21,7 +21,7 @@ function Home() {
             <a
               href="/Kumari_priya_resume.pdf"
               download
-              className="px-6 py-3 bg-cyan-500 text-black rounded-lg hover:bg-cyan-400 transition"
+              className="px-6 py-3 bg-cyan-600 text-black font-bold rounded-lg hover:bg-cyan-200 transition"
             >
               Download CV
             </a>
