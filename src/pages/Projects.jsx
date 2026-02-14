@@ -11,11 +11,12 @@ function Projects() {
 
         <div className="bg-[#1f2937] p-6 rounded-xl hover:scale-105 transition">
           <h3 className="text-xl font-semibold text-white">
-            Yoga Delight
+            Mini YouTube
           </h3>
           <p className="text-slate-400 mt-3">
-            Yoga posture detection & health improvement website.
+            React-based YouTube clone with video search & playback.
           </p>
+          <a href="https://github.com/K899-priya/Mini-youtube" className="text-cyan-400">Source Code</a>
         </div>
 
         <div className="bg-[#1f2937] p-6 rounded-xl hover:scale-105 transition">
@@ -34,8 +35,19 @@ function Projects() {
           <p className="text-slate-400 mt-3">
             Python game with scoring & difficulty levels.
           </p>
+          <a href="https://github.com/K899-priya/-snack-game" className="text-cyan-400 hover:underline">Source Code</a>
         </div>
-
+        
+        <div className="bg-[#1f2937] p-6 rounded-xl hover:scale-105 transition">
+          <h3 className="text-xl font-semibold text-white">
+            DashBoard
+          </h3>
+          <p className="text-slate-400 mt-3">
+            React dashboard with charts & data visualization.
+          </p>
+          <a href="https://github.com/K899-priya/Dashboard" className="text-cyan-400">Source Code</a>
+        </div>
+        
       </div>
     </div>
   );
