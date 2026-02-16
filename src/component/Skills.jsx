@@ -10,8 +10,8 @@ const skills = [
 
 function Skills() {
   return (
-    <div className="bg-[#020617] py-20 px-8">
-      <h2 className="text-3xl text-cyan-400 text-center mb-10">
+    <div className="bg-[#111827] py-15 px-8 underline-dashed underline-offset-8">
+      <h2 className="text-3xl font-bold text-cyan-400 text-center mb-10">
         Skills
       </h2>
 

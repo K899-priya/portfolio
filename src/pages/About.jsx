@@ -1,4 +1,5 @@
 import React from "react";
+import Skills from "../component/Skills.jsx";
 
 function About() {
   return (
@@ -30,6 +31,8 @@ function About() {
           <p className="text-slate-400 mt-2">Internship Experience</p>
         </div>
       </div>
+
+      <Skills />
     </div>
   );
 }
