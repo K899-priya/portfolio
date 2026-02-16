@@ -152,7 +152,7 @@ function Contact() {
             className={`w-full py-3 rounded-lg font-semibold transition-all ${
               loading
                 ? "bg-slate-600 cursor-not-allowed"
-                : "bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-105 hover:shadow-lg"
+                : "bg-linear-to-r from-cyan-500 to-blue-500 hover:scale-105 hover:shadow-lg"
             }`}
           >
             {loading ? "Sending..." : "Send Message"}

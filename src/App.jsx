@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./component/Navbar.jsx";
 import Footer from "./component/Footer.jsx";
-import Skills from "./components/Skills.jsx";
+import Skills from "./component/Skills.jsx";
+import ParticlesBackground from "./component/ParticlesBackground.jsx";
 
 
 import Home from "./pages/Home.jsx";
@@ -21,6 +22,8 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/particles-background" element={<ParticlesBackground />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/experience" element={<Experience />} />

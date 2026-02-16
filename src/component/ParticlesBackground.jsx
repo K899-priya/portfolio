@@ -1,7 +1,8 @@
+import React from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
-export default function ParticlesBackground() {
+function ParticlesBackground() {
   const particlesInit = async (main) => {
     await loadFull(main);
   };
@@ -28,3 +29,5 @@ export default function ParticlesBackground() {
     />
   );
 }
+
+export default ParticlesBackground;
