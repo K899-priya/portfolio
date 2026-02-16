@@ -1,51 +1,48 @@
-import React from "react";
-import profile from "../assets/123.jpeg";
+import React, { useEffect } from "react";
+import profile from "../assets/profile.png";
+import ParticlesBackground from "../components/ParticlesBackground";
+import AOS from "aos";
 
 function Home() {
-  return (
-    <div className="max-h-screen flex items-center justify-center px-7 bg-[#0f172a]">
-      <div className="max-w-6xl w-full grid md:grid-cols-2 gap-10 items-center">
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
 
-        {/* LEFT CONTENT */}
-        <div>
-          <p className="text-slate-400 mb-2">Hello,</p>
+  return (
+    <div className="relative min-h-screen flex items-center justify-center px-8">
+
+      <ParticlesBackground />
+
+      <div className="max-w-6xl w-full grid md:grid-cols-2 gap-12 items-center">
+
+        {/* LEFT */}
+        <div data-aos="fade-right">
+
+          <div className="bg-[#020617] border border-slate-700 px-4 py-2 rounded-md inline-block mb-6 text-sm text-slate-400">
+            kumari@portfolio:~$
+          </div>
+
           <h1 className="text-5xl font-bold text-white mb-4">
-            I'm <span className="text-cyan-400">Kumari Priya</span>
+            Kumari <span className="text-cyan-400">Priya</span>
           </h1>
 
-          <h2 className="text-2xl text-slate-300 mb-6">
-            MCA Student | React Developer
+          <h2 className="text-xl text-slate-300 mb-6">
+            MCA Student | React Developer | Problem Solver
           </h2>
 
-          <div className="space-x-4">
-            <a
-              href="/Kumari_priya_resume.pdf"
-              download
-              className="px-6 py-3 bg-cyan-200 text-black font-bold rounded-lg hover:bg-cyan-600 transition"
-            >
+          <div className="flex gap-4">
+            <a href="/resume.pdf" className="px-6 py-3 bg-cyan-500 rounded-lg text-black font-semibold">
               Download CV
             </a>
-
-            <a
-              href="https://github.com/K899-priya"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-3 border border-cyan-400 rounded-lg text-cyan-400 hover:bg-cyan-400 hover:text-black transition"
-            >
+            <a href="#" className="px-6 py-3 border border-cyan-400 rounded-lg text-cyan-400">
               GitHub
             </a>
           </div>
         </div>
 
-        {/* RIGHT IMAGE WITH GRADIENT CIRCLE */}
-        <div className="relative flex justify-center">
-          <div className="absolute w-52 h-52 bg-linear-to-r from-cyan-500 to-purple-600 rounded-full blur-2xl opacity-15"></div>
-
-          <img
-            src={profile}
-            alt="profile"
-            className="relative w-52 rounded-xl shadow-xl"
-          />
+        {/* RIGHT */}
+        <div data-aos="fade-left" className="flex justify-center">
+          <img src={profile} className="w-72 rounded-xl shadow-lg border border-slate-700" />
         </div>
 
       </div>
