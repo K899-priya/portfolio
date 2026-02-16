@@ -4,7 +4,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./component/Navbar.jsx";
 import Footer from "./component/Footer.jsx";
 import Skills from "./component/Skills.jsx";
-import ParticlesBackground from "./component/ParticlesBackground.jsx";
+import ParticlesBackground from "./component/GradientMesh.jsx";
+import AnimatedBackground from "./component/NeuralBackground.jsx";
+import MusicPlayer from "./component/MusicPlayer.jsx";
 
 
 import Home from "./pages/Home.jsx";
@@ -17,6 +19,9 @@ import Contact from "./pages/Contact.jsx";
 function App() {
   return (
     <Router>
+      <AnimatedBackground />
+      <MusicPlayer />
+      
       <div className="bg-[#172138] text-white min-h-screen min-w-screen font-mono">
         <Navbar />
 

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import profile from "../assets/123.jpeg";
-import ParticlesBackground from "../component/ParticlesBackground";
+import ParticlesBackground from "../component/GradientMesh";
 
 import AOS from "aos";
 
