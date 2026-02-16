@@ -46,7 +46,7 @@ function Home() {
         <div data-aos="fade-left" className="flex justify-center">
           <img
             src={profile}
-            className="w-72 rounded-full shadow-3xl border-4 border-slate-700"
+            className="w-72 rounded-full shadow-3xl border-2 shadow-[0_0_20px_rgba(34,211,238,0.3)] hover:border-cyan-400"
           />
         </div>
       </div>

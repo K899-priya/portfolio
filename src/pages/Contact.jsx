@@ -74,7 +74,7 @@ function Contact() {
 
         {/* TITLE */}
         <h2 className="text-3xl text-cyan-400 mb-8 font-semibold text-center">
-          {"<Contact Me />"}
+          Contact Me 
         </h2>
 
         <form ref={form} onSubmit={sendEmail} className="space-y-6">
