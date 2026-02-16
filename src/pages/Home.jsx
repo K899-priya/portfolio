@@ -21,7 +21,7 @@ function Home() {
             <a
               href="/Kumari_priya_resume.pdf"
               download
-              className="px-6 py-3 bg-cyan-600 text-black font-bold rounded-lg hover:bg-cyan-200 transition"
+              className="px-6 py-3 bg-cyan-200 text-black font-bold rounded-lg hover:bg-cyan-600 transition"
             >
               Download CV
             </a>
