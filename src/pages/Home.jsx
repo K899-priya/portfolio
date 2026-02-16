@@ -3,7 +3,7 @@ import profile from "../assets/123.jpeg";
 
 function Home() {
   return (
-    <div className="max-h-screen flex items-center justify-center px-8 bg-[#0f172a]">
+    <div className="max-h-screen flex items-center justify-center px-7 bg-[#0f172a]">
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-10 items-center">
 
         {/* LEFT CONTENT */}
