@@ -39,12 +39,12 @@ function Home() {
 
         {/* RIGHT IMAGE WITH GRADIENT CIRCLE */}
         <div className="relative flex justify-center">
-          <div className="absolute w-72 h-72 bg-linear-to-r from-cyan-500 to-purple-600 rounded-full blur-3xl opacity-30"></div>
+          <div className="absolute w-52 h-52 bg-linear-to-r from-cyan-500 to-purple-600 rounded-full blur-2xl opacity-15"></div>
 
           <img
             src={profile}
             alt="profile"
-            className="relative w-72 rounded-xl shadow-lg"
+            className="relative w-52 rounded-xl shadow-xl"
           />
         </div>
 
