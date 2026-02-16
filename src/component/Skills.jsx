@@ -12,7 +12,7 @@ function Skills() {
   return (
     <div className="bg-[#020617] py-20 px-8">
       <h2 className="text-3xl text-cyan-400 text-center mb-10">
-        {"<Skills />"}
+        Skills
       </h2>
 
       <div className="max-w-3xl mx-auto space-y-6">
