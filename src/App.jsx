@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./component/Navbar.jsx";
 import Footer from "./component/Footer.jsx";
 import Skills from "./component/Skills.jsx";
-import ParticlesBackground from "./component/GradientMesh.jsx";
-import AnimatedBackground from "./component/NeuralBackground.jsx";
+import GradientMesh from "./component/GradientMesh.jsx";
+import NeuralBackground from "./component/NeuralBackground.jsx";
 import MusicPlayer from "./component/MusicPlayer.jsx";
 
 
@@ -19,7 +19,8 @@ import Contact from "./pages/Contact.jsx";
 function App() {
   return (
     <Router>
-      <AnimatedBackground />
+      <GradientMesh />
+      <NeuralBackground />
       <MusicPlayer />
       
       <div className="bg-[#172138] text-white min-h-screen min-w-screen font-mono">
@@ -28,7 +29,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
-          <Route path="/particles-background" element={<ParticlesBackground />} />
+          
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/experience" element={<Experience />} />
