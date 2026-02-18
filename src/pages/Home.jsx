@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import profile from "../assets/123.jpeg";
-import ParticlesBackground from "../component/GradientMesh";
+import GradientMesh from "../component/GradientMesh";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -26,15 +26,12 @@ function Home() {
   }, []);
 
   return (
-    <div className="relative min-h-screen flex bg-[#020617] items-center justify-center px-8">
-
-      <ParticlesBackground />
+   <div className="relative min-h-screen flex items-center justify-center px-8 bg-black/20 backdrop-blur-sm z-10">
+      <GradientMesh />
 
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-3 items-center">
-
         {/* LEFT */}
         <div data-aos="fade-right">
-
           {/* Greeting Badge */}
           <div className="bg-[#020617] border border-cyan-500 px-4 py-2 rounded-md inline-block mb-3 mt-4 text-sm text-cyan-400 shadow-[0_0_10px_rgba(34,211,238,0.3)]">
             {greeting}
@@ -50,7 +47,7 @@ function Home() {
 
           <div className="flex gap-4">
             <a
-              href="/Kumari_priya_resume.pdf"
+              href="/public/Kumari_Priya-resume2.pdf"
               className="px-6 py-3 bg-cyan-300 rounded-lg text-black font-semibold hover:bg-cyan-500 transition"
             >
               Download CV
