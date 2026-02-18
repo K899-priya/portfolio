@@ -22,7 +22,7 @@ function MusicPlayer() {
 
       <button
         onClick={toggleMusic}
-        className="bg-cyan-500 text-black px-4 py-2 rounded-full shadow-lg hover:scale-105 transition"
+        className="bg-cyan-400 text-black px-4 py-2 rounded-full shadow-lg hover:scale-105 transition"
       >
         {playing ? "🔊 Pause" : "🎵 Play"}
       </button>
