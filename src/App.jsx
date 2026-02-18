@@ -1,13 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./component/Navbar.jsx";
 import Footer from "./component/Footer.jsx";
-import Skills from "./component/Skills.jsx";
 import GradientMesh from "./component/GradientMesh.jsx";
 import NeuralBackground from "./component/NeuralBackground.jsx";
 import MusicPlayer from "./component/MusicPlayer.jsx";
-
 
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
@@ -15,21 +13,20 @@ import Projects from "./pages/Projects.jsx";
 import Experience from "./pages/Experience.jsx";
 import Contact from "./pages/Contact.jsx";
 
-
 function App() {
   return (
-    <Router>
+    <div className="relative bg-[#020617] text-white min-h-screen min-w-screen font-mono overflow-hidden">
+
+      {/* BACKGROUND LAYERS */}
       <GradientMesh />
       <NeuralBackground />
-      <MusicPlayer />
-      
-      <div className="bg-[#172138] text-white min-h-screen min-w-screen font-mono">
+
+      {/* CONTENT */}
+      <div className="relative z-10">
         <Navbar />
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/skills" element={<Skills />} />
-          
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/experience" element={<Experience />} />
@@ -38,7 +35,11 @@ function App() {
 
         <Footer />
       </div>
-    </Router>
+
+      {/* MUSIC PLAYER */}
+      <MusicPlayer />
+
+    </div>
   );
 }
 

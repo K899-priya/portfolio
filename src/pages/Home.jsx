@@ -26,7 +26,7 @@ function Home() {
   }, []);
 
   return (
-   <div className="relative min-h-screen flex items-center justify-center px-8 bg-black/20 backdrop-blur-sm z-10">
+   <div className="relative min-h-screen flex items-center justify-center px-8  backdrop-blur-xs z-10">
       <GradientMesh />
 
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-3 items-center">

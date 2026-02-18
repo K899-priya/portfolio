@@ -2,7 +2,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <div className="py-20 px-8 bg-[#0f172a]">
+    <div className="py-20 px-8 ">
       <h2 className="text-3xl text-center font-bold text-cyan-400 mb-12">
         Projects
       </h2>

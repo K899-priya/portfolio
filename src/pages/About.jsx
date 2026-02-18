@@ -13,7 +13,7 @@ function About() {
   ];
 
   return (
-    <div className="bg-[#111827] py-20 px-8 text-center">
+    <div className=" py-20 px-8 text-center">
 
       <h2 className="text-3xl font-bold text-cyan-400 mb-10">
         About Me

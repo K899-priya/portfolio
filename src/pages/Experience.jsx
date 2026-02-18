@@ -12,7 +12,7 @@ function Experience() {
   }, []);
 
   return (
-    <div className="px-10 py-20 min-h-screen bg-[#020617]">
+    <div className="px-10 py-20 min-h-screen ">
 
       {/* TITLE */}
       <h2
