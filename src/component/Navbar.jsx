@@ -4,9 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav className="flex justify-between items-center px-10 py-6 border-b border-slate-700">
-      <h1 className="text-lg font-bold text-cyan-400">
-        Portfolio
-      </h1>
+      <span><img src="/logos/logo.png" alt="logo" className="h-12 w-12"/></span>
 
       <div className="space-x-6 text-sm">
         <Link to="/" className="hover:text-cyan-400">Home</Link>
