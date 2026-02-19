@@ -42,7 +42,7 @@ function Home() {
           </h1>
 
           <h2 className="text-xl text-slate-300 mb-6">
-            MCA Student | React Developer | Problem Solver
+            React Developer | Problem Solver
           </h2>
 
           <div className="flex gap-4">
