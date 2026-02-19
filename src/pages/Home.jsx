@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import profile from "../assets/123.jpeg";
-import GradientMesh from "../component/GradientMesh";
+import NeuralBackground from "../component/NeuralBackground";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -27,7 +27,7 @@ function Home() {
 
   return (
    <div className="relative min-h-screen flex items-center justify-center px-8  backdrop-blur-xs z-10">
-      <GradientMesh />
+      <NeuralBackground />
 
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-3 items-center">
         {/* LEFT */}

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import NeuralBackground from "../component/NeuralBackground";
 
 function Contact() {
 
@@ -14,7 +15,7 @@ function Contact() {
 
   return (
     <div className="min-h-screen flex items-center justify-center px-6 relative">
-
+     <NeuralBackground />
       {/* Glow Background */}
       <div className="absolute w-125 h-125 bg-cyan-500/20 blur-3xl rounded-full animate-pulse"></div>
 
