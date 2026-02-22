@@ -17,7 +17,7 @@ function Projects() {
             YogaDelight A personalized yoga application that uses AI to accurately detect and correct your poses.
             With a vast library of yoga poses, detailed instructions, and real-time feedback, it’s your perfect yoga partner. 
           </p>
-          <a href="https://github.com/K899-priya/Yoga_Delight-main" className="text-cyan-400">Source Code</a>
+          <a href="https://yoga-ai-app.vercel.app/" className="text-cyan-400">Live Demo</a>
         </div>
 
         <div className="bg-[#1f2937] p-6 rounded-xl hover:scale-105 transition">
@@ -36,17 +36,17 @@ function Projects() {
           <p className="text-slate-400 mt-3">
             Python game with scoring & difficulty levels.
           </p>
-          <a href="https://github.com/K899-priya/-snack-game" className="text-cyan-400 hover:underline">Source Code</a>
+          <a href="https://github.com/K899-priya/Snake-game" className="text-cyan-400 hover:underline">Source Code</a>
         </div>
         
         <div className="bg-[#1f2937] p-6 rounded-xl hover:scale-105 transition">
           <h3 className="text-xl font-semibold text-white">
-            DashBoard
+            Mini Youtube
           </h3>
           <p className="text-slate-400 mt-3">
-            React dashboard with charts & data visualization.
+            React-based YouTube clone with search and video playback.
           </p>
-          <a href="https://github.com/K899-priya/Dashboard" className="text-cyan-400">Source Code</a>
+          <a href="https://mini-youtube-clone-rust.vercel.app/" className="text-cyan-400">Live Demo</a>
         </div>
         
       </div>
